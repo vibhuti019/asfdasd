@@ -3,6 +3,7 @@ export default function FormReplier({ data, props }) {
     <div className="p-4">
       <h2>FormReplier</h2>
       <new Change/>
+      asdasd
     </div>
   );
 }
