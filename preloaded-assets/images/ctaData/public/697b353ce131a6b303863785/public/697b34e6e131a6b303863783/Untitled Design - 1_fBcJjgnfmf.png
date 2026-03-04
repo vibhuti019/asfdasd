@@ -1,0 +1,247 @@
+# 🚀 Ultimate Markdown Stress Test
+
+> If your Markdown renderer survives this file, it's production-ready.
+
+---
+
+## 1. Headings (All Levels)
+
+# H1 — Title Level  
+## H2 — Section Level  
+### H3 — Subsection  
+#### H4 — Minor Section  
+##### H5 — Small Section  
+###### H6 — Tiny Section  
+
+---
+
+## 2. Text Formatting
+
+**Bold Text**  
+*Italic Text*  
+***Bold + Italic***  
+~~Strikethrough~~  
+<u>Underline (HTML)</u>  
+
+Inline `code snippet` inside a paragraph.
+
+---
+
+## 3. Horizontal Rule
+
+---
+***
+___
+
+---
+
+## 4. Lists
+
+### Unordered
+
+- Item 1
+  - Sub Item 1.1
+    - Sub Sub Item 1.1.1
+- Item 2
+- Item 3
+
+### Ordered
+
+1. First
+2. Second
+   1. Second.1
+   2. Second.2
+3. Third
+
+### Task List
+
+- [x] Completed Task
+- [ ] Pending Task
+- [ ] Another Task
+
+---
+
+## 5. Links
+
+[OpenAI](https://openai.com)  
+<https://github.com>
+
+Reference-style link:
+
+[Google][google]
+
+[google]: https://google.com
+
+---
+
+## 6. Blockquotes
+
+> This is a blockquote  
+>> Nested blockquote  
+>>> Triple nested
+
+---
+
+## 7. Code Blocks
+
+### JavaScript
+
+```javascript
+function fibonacci(n) {
+  if (n <= 1) return n;
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+console.log(fibonacci(10));
+```
+
+### Python
+
+```python
+class Agent:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        return f"Hello, I am {self.name}"
+
+agent = Agent("AI")
+print(agent.speak())
+```
+
+### Bash
+
+```bash
+#!/bin/bash
+echo "Markdown Viewer Test"
+ls -la
+```
+
+---
+
+## 8. Tables
+
+| Feature        | Supported | Notes |
+|---------------|----------|-------|
+| Headings      | ✅        | All 6 |
+| Tables        | ✅        | Styled |
+| Code Blocks   | ✅        | Highlighted |
+| Footnotes     | ❓        | Check |
+
+Alignment test:
+
+| Left | Center | Right |
+|:-----|:------:|------:|
+| A    | B      | C     |
+| 1    | 2      | 3     |
+
+---
+
+## 9. Images
+
+![Placeholder Image](https://via.placeholder.com/300)
+
+---
+
+## 10. HTML Inside Markdown
+
+<div style="padding:10px; border:2px solid red;">
+  <strong>HTML Block Test</strong><br/>
+  This is raw HTML inside Markdown.
+</div>
+
+---
+
+## 11. Footnotes
+
+Here is a statement with a footnote.[^1]
+
+[^1]: This is the footnote content.
+
+---
+
+## 12. Definition List
+
+Term 1  
+: Definition 1  
+
+Term 2  
+: Definition 2  
+
+---
+
+## 13. Emoji Test
+
+😀 😎 🚀 🔥 💻 🎯 🧠
+
+---
+
+## 14. Escaping Characters
+
+\*Not italic\*  
+\# Not a heading  
+\`Not code\`
+
+---
+
+## 15. Nested Mixed Content
+
+1. Item with code:
+   ```js
+   const x = 42;
+   ```
+2. Item with table:
+
+   | A | B |
+   |---|---|
+   | 1 | 2 |
+
+3. Item with quote:
+
+   > Nested inside list
+
+---
+
+## 16. Math (if supported)
+
+Inline math: $E = mc^2$
+
+Block math:
+
+$$
+\int_{0}^{\infty} e^{-x} dx = 1
+$$
+
+---
+
+## 17. Long Paragraph Stress Test
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at mauris sit amet magna fermentum blandit. Donec auctor, nisl eget ultricies tincidunt, nunc risus dignissim metus, vitae pharetra ipsum velit ut leo. Curabitur lacinia, lorem sed luctus viverra, massa turpis tristique nibh, sit amet bibendum nulla purus vitae nunc.
+
+---
+
+## 18. Collapsible Section (HTML Based)
+
+<details>
+<summary>Click to Expand</summary>
+
+This content should collapse and expand.
+
+- Hidden item 1
+- Hidden item 2
+
+</details>
+
+---
+
+# 🎯 End of Markdown Stress Test
+
+If everything renders correctly:
+
+✅ Headings  
+✅ Code highlighting  
+✅ Tables aligned  
+✅ HTML rendered  
+✅ Footnotes working  
+✅ Math parsed  
+
+Then your Markdown viewer is solid.
